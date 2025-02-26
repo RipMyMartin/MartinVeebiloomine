@@ -1,6 +1,9 @@
 body {
     background-color: #2B2929;
     color: white;
+    font-family: "Tomorrow", serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .header-round {
