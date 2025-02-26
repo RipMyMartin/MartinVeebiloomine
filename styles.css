@@ -1,0 +1,21 @@
+body {
+    background-color: #1B1C1E;
+    color: white;
+}
+
+.header-round {
+    border-radius: 2rem;
+    padding: 0.5px;
+    background-color: #2B2929;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.vebheader {
+    text-align: center;
+
+}
+/*
+#1B1C1E
+#2B2929
+*/
