@@ -17,27 +17,51 @@
         </div>
     </header>
 
+    <div id="main">
+        <div id="content">
+            <nav class="menu">
+                <ul class="menu-items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="issues.html">Issues 1</a></li>
+                    <li><a href="issues2.html">Issues 2</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
     <main>
-        <section class="intro">
-            <h2>Isikuandmed</h2>
-            <p><strong>Nimi:</strong> Martin Sild</p>
-            <img src="img/martin.jpg" alt="Martin Sild" class="profile-img">
-        </section>
+        <div class="parent">
+            
+            <section class="intro">
+                <h2>Isikuandmed</h2>
+                <p><strong>Nimi:</strong> Martin Sild</p>
+                <p><strong>Sünniaeg: </strong>09.08.2007</p>
+                <p><strong>Aadress: </strong>Lagedi teede 18</p>
+                <p><strong>Telefon: </strong>+372 5252307</p>
+            </section>
+            <section>
+                <img src="img/martin.jpg" alt="Martin Sild" class="profile-img">
+            </section>
+        </div>
 
-        <section class="profession">
-            <h2>Eriala</h2>
-            <p>Tarkvaraarendaja</p>
-        </section>
+        <div class="parent">
 
-        <section class="languages">
-            <h2>Keeled</h2>
-            <ul>
-                <li>Eesti keel</li>
-                <li>Inglise keel</li>
-                <li>Vene keel</li>
-            </ul>
-        </section>
+            <section class="profession">
+                <h2>Eriala</h2>
+                <p>Tarkvaraarendaja</p>
+            </section>
+            
+            <section class="languages">
+                <h2>Keeled</h2>
+                <ul>
+                    <li>Eesti keel</li>
+                    <li>Inglise keel</li>
+                    <li>Vene keel</li>
+                </ul>
+            </section>
+        </div>
 
+    <div class="parent2">
         <section class="technologies">
             <h2>IT Tehnoloogiad</h2>
             <p>C#, JS, TS, Vue, Nuxt, Tailwindcss, PHP, Go</p>
@@ -56,55 +80,7 @@
             </ul>
             <p><a href="https://martinsild23.thkit.ee/wp/kodu/">Minu Wordpress</a></p>
         </section>
-
-        <section>
-            <h2>
-                issue1
-            </h2>
-            <p>
-Minimal Viable Product - toote, teenuse või teenuse testversioon, millel on minimaalne hulk funktsioone (mõnikord isegi üks), mis pakub lõppkasutajale väärtust. MVP luuakse selleks, et testida hüpoteese ja kontrollida kavandatud toote elujõulisust, seda, kui väärtuslik ja nõutud see on turul. Minimaalselt elujõulise toote testimise tulemused ja sihtrühma tagasiside aitavad mõista, kas projekti tuleks edasi arendada, milliseid muudatusi tuleks strateegiasse teha ja mis tuleks jätta algsel kujul. 
-            </p>
-        </section>
-
-        <section>
-            <h2>
-                Issue 2
-            </h2>
-
-            <h3>
-                Looge kaug-reposiit
-            </h3>
-            <ul>
-                <li>Minge GitHubi (või GitLabi, Bitbucketi) ja looge uus reposiit</li>
-            </ul>
-            <h3>
-                Algatage kohalik Git reposiit: Oma projekti kaustas käivitage järgmised käsud
-            </h3>
-
-            <code>
-                git init
-                git add .
-                git commit -m "Algne commit"
-            </code>
-
-            <h3>
-                Lisage kaug-reposiit: Kopeerige oma kaug-reposiidi URL ja käivitage järgmine käsk
-            </h3>
-
-            <code>
-                git remote add origin https://github.com/username/repo_name.git
-            </code>
-
-            <h3>
-                Saadke muudatused kaug-reposiiti
-            </h3>
-
-            <code>
-                git push -u origin master
-            </code>
-            <br>
-            <p>Nüüd on teie kohalik reposiit ühendatud kaug-reposiidiga ja muudatusi saab edaspidi saata käsuga <code>git push</code></p>
-        </section>
+    </div>
     </main>
 
     <footer>
